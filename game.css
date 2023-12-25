@@ -1,0 +1,44 @@
+.game {
+  width: 640px;
+  text-align: center;
+  color: white;
+  background-color: rgb(138, 16, 138);
+  margin: auto;
+  padding: 10px;
+  border-radius: 2px;
+  font-family: 'Silkscreen';
+}
+
+.game .header {
+  background-color:rgb(171, 55, 171);
+  border-radius: 2px;
+  padding: 5px 0;
+  margin: 5px 0 10px 0;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.game .header span {
+  color: rgb(255, 234, 0);
+}
+
+.game .play {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.game .play .square {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(171, 55, 171);
+  border-radius: 2px;
+  box-shadow: 0 0 30px -20px black;
+  font-size: 120px;
+  color: rgb(255, 234, 0);
+}
+
+.game .play .square:hover {
+  background-color: rgb(90, 2, 108);
+  cursor: pointer;
+}
