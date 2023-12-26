@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image" href="Screenshot_6.png">
   <title>XO GAME</title>
   <link rel="stylesheet" href="game.css">
   <!-- goole fonts -->
@@ -15,23 +16,26 @@
 </head>
 
 <body>
-  <div class="game">
-    <div class="header"><span>XO</span> GAME</div>
-    <div class="play">
-      <div class="square" id="item1" onclick="game(this.id)"></div>
-      <div class="square" id="item2" onclick="game(this.id)"></div>
-      <div class="square" id="item3" onclick="game(this.id)"></div>
-
-      <div class="square" id="item4" onclick="game(this.id)"></div>
-      <div class="square" id="item5" onclick="game(this.id)"></div>
-      <div class="square" id="item6" onclick="game(this.id)"></div>
-
-      <div class="square" id="item7" onclick="game(this.id)"></div>
-      <div class="square" id="item8" onclick="game(this.id)"></div>
-      <div class="square" id="item9" onclick="game(this.id)"></div>
+  <div class="glass">
+    <div class="game">
+      <div class="header"><span>XO</span> GAME</div>
+      <div class="play">
+        <div class="square" id="item1" onclick="game(this.id)"></div>
+        <div class="square" id="item2" onclick="game(this.id)"></div>
+        <div class="square" id="item3" onclick="game(this.id)"></div>
+        
+        <div class="square" id="item4" onclick="game(this.id)"></div>
+        <div class="square" id="item5" onclick="game(this.id)"></div>
+        <div class="square" id="item6" onclick="game(this.id)"></div>
+        
+        <div class="square" id="item7" onclick="game(this.id)"></div>
+        <div class="square" id="item8" onclick="game(this.id)"></div>
+        <div class="square" id="item9" onclick="game(this.id)"></div>
+      </div>
+      <button class="btn1" onclick="restart()">restart</button>
     </div>
   </div>
-  <script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
